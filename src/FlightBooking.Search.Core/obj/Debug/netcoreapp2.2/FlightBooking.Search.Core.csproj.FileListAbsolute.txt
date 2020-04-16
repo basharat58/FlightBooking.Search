@@ -1,0 +1,8 @@
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\bin\Debug\netcoreapp2.2\FlightBooking.Search.Core.deps.json
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\bin\Debug\netcoreapp2.2\FlightBooking.Search.Core.dll
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\bin\Debug\netcoreapp2.2\FlightBooking.Search.Core.pdb
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.csproj.CoreCompileInputs.cache
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.AssemblyInfoInputs.cache
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.AssemblyInfo.cs
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.dll
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.pdb
