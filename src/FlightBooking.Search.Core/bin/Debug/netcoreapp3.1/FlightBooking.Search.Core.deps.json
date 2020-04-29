@@ -1,0 +1,249 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FlightBooking.Search.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "8.0.1",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.3",
+          "NEST": "7.6.1"
+        },
+        "runtime": {
+          "FlightBooking.Search.Core.dll": {}
+        }
+      },
+      "Elasticsearch.Net/7.6.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0",
+          "System.Buffers": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.6.1.0"
+          }
+        }
+      },
+      "MediatR/8.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "MediatR": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.6.0": {},
+      "Microsoft.Extensions.Configuration/3.1.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.3": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
+          "Microsoft.Extensions.Primitives": "3.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.3",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
+          "Microsoft.Extensions.Options": "3.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12802"
+          }
+        }
+      },
+      "NEST/7.6.1": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.6.1.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {},
+      "System.Diagnostics.DiagnosticSource/4.5.1": {}
+    }
+  },
+  "libraries": {
+    "FlightBooking.Search.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net/7.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-99aedsMDSS7RX/Ujrdsovq7AtTfd3oUfq2A2B/qRcPqpRVQl3zqeIsroTGFy31bgcinZLvZXXqW5DEv2SB3mHw==",
+      "path": "elasticsearch.net/7.6.1",
+      "hashPath": "elasticsearch.net.7.6.1.nupkg.sha512"
+    },
+    "MediatR/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "path": "mediatr/8.0.1",
+      "hashPath": "mediatr.8.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qGa+dbfrpk6y01swgc0uM+jG5tkb5xVeY1P4iByd3NQCDO7nmrMBnBRoMGhKlSigQ6iWXDiwOpzC01W4xrJxLg==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/8.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nTr4JgTSJScDBD3lahIh1jUBH8A43oG1cqID1qLoHSZhtegslpIyTYxmnehtUKi6xdY5j9R0oWeeGEP+JTcmAg==",
+      "path": "microsoft.extensions.configuration/3.1.3",
+      "hashPath": "microsoft.extensions.configuration.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d3vpIJdw+hRtkW1WoNTXhCczakVVId30Tj58li5GbJxz6MVGi8gy4+7JdLBb/wuHFd4+25cZe+Z0WPi207rBbQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.3",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GouLlU6JOffNNudJpC+eGtGMe9o5ds2oH9dsJUEH1QS13eLl60eNX9rHicaE40c252e7Aixn3sS7yregDfpQ8g==",
+      "path": "microsoft.extensions.configuration.binder/3.1.3",
+      "hashPath": "microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-woeS5XeBChU76EmtFCwGHKgBfsYIn76u3myDq4zNY2ZrcwzBMNEViK2FRgXDgF11PBNbGdKCXsWFFZDtqPW0nQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.3",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RyOSOg/kHW3AXojWGSdOs3BXJJnE9Sc6RVvP4LhnY5oaC2Da4k8CWfIw7I+QThxV8HTCPjzmON9c+QO+JZggNg==",
+      "path": "microsoft.extensions.options/3.1.3",
+      "hashPath": "microsoft.extensions.options.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z0xe960FJ43sni/HNGGi4x35ee9Y6Ej2Ithzxy9mc1efGaJruWMgy7pV/CZpQV5PKjd/5/ugpYQs622huBELgA==",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.3",
+      "hashPath": "microsoft.extensions.options.configurationextensions.3.1.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5gK6qeq9CBCHBfB3Tim3jCJTLafT9FXFBAZZq39rC8adz8mxcjVAuQSw3jGgHqoRk0jwtXKFhXJUVur8vfeuFg==",
+      "path": "microsoft.extensions.primitives/3.1.3",
+      "hashPath": "microsoft.extensions.primitives.3.1.3.nupkg.sha512"
+    },
+    "NEST/7.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aoRhZPp4R5p2jRgCtgtcvAyh7YuCOJhtMKDYyekqGCvXG/pwVpuR3Mlk6s3WYZ6U6neyFvG6Fatj9Y+K+QkBYQ==",
+      "path": "nest/7.6.1",
+      "hashPath": "nest.7.6.1.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
+      "path": "system.diagnostics.diagnosticsource/4.5.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+    }
+  }
+}
