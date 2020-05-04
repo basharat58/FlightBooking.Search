@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "63f8cf92ddb09c5e0d989f4de66a7bdc5c12e0be"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -30,7 +30,8 @@
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.4",
           "Swashbuckle.AspNetCore": "5.3.1",
-          "Swashbuckle.AspNetCore.Filters": "5.1.1"
+          "Swashbuckle.AspNetCore.Filters": "5.1.1",
+          "Swashbuckle.AspNetCore.Newtonsoft": "5.3.1"
         },
         "runtime": {
           "FlightBooking.Search.API.dll": {}
@@ -284,6 +285,21 @@
         },
         "compile": {
           "lib/netstandard2.0/Swashbuckle.AspNetCore.Filters.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Newtonsoft/5.3.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Newtonsoft.dll": {
+            "assemblyVersion": "5.3.1.0",
+            "fileVersion": "5.3.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Newtonsoft.dll": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/5.3.1": {
@@ -3833,6 +3849,13 @@
       "sha512": "sha512-ZShUVhVHhOY3vEn3ZoBjj1qTd13+gjlq1fPDcN9DDhof7M5oiANZLjw1JA72qskesi/iNCoNkOYK4PZGyuKmTQ==",
       "path": "swashbuckle.aspnetcore.filters/5.1.1",
       "hashPath": "swashbuckle.aspnetcore.filters.5.1.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Newtonsoft/5.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wVCKpqIrCVCo/nGLOF6E0RR9XQNNttAPkYbEQAsZcgsaFo+SwJOcv9r/Nc6qDzBi17vcpVIkwpnT80Wl/CHaTw==",
+      "path": "swashbuckle.aspnetcore.newtonsoft/5.3.1",
+      "hashPath": "swashbuckle.aspnetcore.newtonsoft.5.3.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/5.3.1": {
       "type": "package",

@@ -6,3 +6,4 @@ E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBookin
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.AssemblyInfo.cs
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.dll
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.pdb
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\src\FlightBooking.Search.Core\obj\Debug\netcoreapp2.2\FlightBooking.Search.Core.csprojAssemblyReference.cache

@@ -11,3 +11,13 @@ E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBook
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.AssemblyInfo.cs
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.dll
 E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.pdb
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\FlightBooking.Search.API.dll
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\FlightBooking.Search.Core.dll
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\FlightBooking.Search.API.pdb
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\bin\Debug\netcoreapp2.2\FlightBooking.Search.Core.pdb
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.csprojAssemblyReference.cache
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.csproj.CopyComplete
+E:\Development\Elasticsearch\FlightBooking\FlightBooking.Search\tests\FlightBooking.Search.API.Tests\obj\Debug\netcoreapp2.2\FlightBooking.Search.API.Tests.genruntimeconfig.cache
