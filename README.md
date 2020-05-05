@@ -7,5 +7,6 @@ There are four indexes in the Elasticsearch database:
   3. location
   4. airline
   
+  
   ![](_MISC/Images/kibanaindexes.PNG)
 
