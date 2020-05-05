@@ -6,4 +6,7 @@ There are four indexes in the Elasticsearch database:
   2. hotelavailability
   3. location
   4. airline
+  
+  
+  ![](_MISC/Images/kibanaindexes.PNG)
 
