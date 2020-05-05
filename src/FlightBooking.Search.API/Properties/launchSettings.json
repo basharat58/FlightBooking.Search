@@ -5,14 +5,14 @@
     "anonymousAuthentication": true, 
     "iisExpress": {
       "applicationUrl": "http://localhost:52687",
-      "sslPort": 44349
+      "sslPort": 0
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "FlightBooking.Search.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "",
+      "launchUrl": "swagger",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
