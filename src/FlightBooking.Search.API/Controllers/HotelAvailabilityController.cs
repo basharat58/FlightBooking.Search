@@ -32,7 +32,8 @@ namespace FlightBooking.Search.API.Controllers
                 request.HotelName,
                 request.NetPrice,
                 request.Region,
-                request.Country);
+                request.Country,
+                request.Available);
             var result = await _mediatr.Send(query, new CancellationToken());
             return result != null
                 ? (IActionResult)Ok(result)

@@ -38,6 +38,7 @@ namespace FlightBooking.Search.Core.Tests.Repositories
             var hotelAvailabilityResponse = AutoFixture.Create<HotelAvailability[]>().ToList();
             var mockSearchResponse = new Mock<ISearchResponse<HotelAvailability>>();
             var mockElasticClient = new Mock<IElasticClient>();
+            hotelAvailabilityResponse.Select(har => har.Available = true);
 
             Mocker.GetMock<IOptions<ElasticsearchConfig>>()
                 .Setup(esc => esc.Value)

@@ -12,5 +12,6 @@ namespace FlightBooking.Search.Core.Requests
         public double NetPrice { get; set; }
         public string Region { get; set; }
         public string Country { get; set; }
+        public bool Available { get; set; }
     }
 }

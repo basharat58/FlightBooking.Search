@@ -14,7 +14,8 @@ namespace FlightBooking.Search.Core.Queries
             string hotelName,
             double? netPrice,
             string region,
-            string country)
+            string country,
+            bool available)
         {
             Infants = infants;
             Children = children;
@@ -24,6 +25,7 @@ namespace FlightBooking.Search.Core.Queries
             NetPrice = netPrice;
             Region = region;
             Country = country;
+            Available = available;
         }
 
         public int Infants { get; set; }
@@ -34,5 +36,6 @@ namespace FlightBooking.Search.Core.Queries
         public double? NetPrice { get; set; }
         public string Region { get; set; }
         public string Country { get; set; }
+        public bool Available { get; set; }
     }
 }

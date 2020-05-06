@@ -33,6 +33,9 @@ namespace FlightBooking.Search.Core.Entities
         public DateTime StayDate { get; set; }
 
         [Text(Name = "enddate")]
-        public DateTime EndDate { get; set; } 
+        public DateTime EndDate { get; set; }
+
+        [Text(Name = "available")]
+        public bool Available { get; set; }
     }
 }
