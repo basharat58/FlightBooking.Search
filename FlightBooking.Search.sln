@@ -5,13 +5,11 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Search.API", "src\FlightBooking.Search.API\FlightBooking.Search.API.csproj", "{53E0F60D-A470-449E-861E-6FBC3B2062ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Search.API.Tests", "tests\FlightBooking.Search.API.Tests\FlightBooking.Search.API.Tests.csproj", "{7D6E9DD7-B5DD-401C-B01F-D6D85F5646AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Search.API.IntegrationTests", "tests\FlightBooking.Search.API.IntegrationTests\FlightBooking.Search.API.IntegrationTests.csproj", "{FDF943B2-79C2-41CD-8BA4-BC8038AA7644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Search.API.IntegrationTests", "tests\FlightBooking.Search.API.IntegrationTests\FlightBooking.Search.API.IntegrationTests.csproj", "{FDF943B2-79C2-41CD-8BA4-BC8038AA7644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Search.Core", "src\FlightBooking.Search.Core\FlightBooking.Search.Core.csproj", "{E0EE0EA5-71B1-4D95-A843-54B1D5AAF062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Search.Core", "src\FlightBooking.Search.Core\FlightBooking.Search.Core.csproj", "{E0EE0EA5-71B1-4D95-A843-54B1D5AAF062}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBooking.Search.Core.Tests", "tests\FlightBooking.Search.Core.Tests\FlightBooking.Search.Core.Tests.csproj", "{97AA7BC2-8A26-41F6-8DA6-6D0840906B4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBooking.Search.Core.Tests", "tests\FlightBooking.Search.Core.Tests\FlightBooking.Search.Core.Tests.csproj", "{97AA7BC2-8A26-41F6-8DA6-6D0840906B4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{53E0F60D-A470-449E-861E-6FBC3B2062ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E0F60D-A470-449E-861E-6FBC3B2062ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E0F60D-A470-449E-861E-6FBC3B2062ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D6E9DD7-B5DD-401C-B01F-D6D85F5646AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D6E9DD7-B5DD-401C-B01F-D6D85F5646AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D6E9DD7-B5DD-401C-B01F-D6D85F5646AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D6E9DD7-B5DD-401C-B01F-D6D85F5646AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDF943B2-79C2-41CD-8BA4-BC8038AA7644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDF943B2-79C2-41CD-8BA4-BC8038AA7644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF943B2-79C2-41CD-8BA4-BC8038AA7644}.Release|Any CPU.ActiveCfg = Release|Any CPU

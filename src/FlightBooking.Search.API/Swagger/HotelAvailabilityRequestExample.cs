@@ -12,12 +12,13 @@ namespace FlightBooking.Search.API.Swagger
             {
                 Infants = 1,
                 Children = 2,
-                Adults = 2,
+                Adults = 1,
                 StayDate = new DateTime(2020, 09, 18),
                 HotelName = "Lydia Maris",
                 NetPrice = 600,
                 Region = "Rhodes",
-                Country = "Greece"
+                Country = "Greece",
+                Available = true
             };
         }
     }

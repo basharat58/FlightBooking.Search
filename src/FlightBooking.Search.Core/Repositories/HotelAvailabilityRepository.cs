@@ -31,9 +31,10 @@ namespace FlightBooking.Search.Core.Repositories
                 .Query(q => q
                     .Bool(bq => bq                    
                         .Must(
-                            fq => fq.Range(r => r.Field(f => f.Infants).LessThanOrEquals(hotelAvailabilityRequest.Infants)),
-                            fq => fq.Range(r => r.Field(f => f.Children).LessThanOrEquals(hotelAvailabilityRequest.Children)),
-                            fq => fq.Range(r => r.Field(f => f.Adults).LessThanOrEquals(hotelAvailabilityRequest.Adults)),
+                            fq => fq.Match(m => m.Field(f => f.Available).Query("true")),
+                            fq => fq.Range(r => r.Field(f => f.Infants).GreaterThanOrEquals(hotelAvailabilityRequest.Infants)),
+                            fq => fq.Range(r => r.Field(f => f.Children).GreaterThanOrEquals(hotelAvailabilityRequest.Children)),
+                            fq => fq.Range(r => r.Field(f => f.Adults).GreaterThanOrEquals(hotelAvailabilityRequest.Adults)),
                             fq => fq.Match(m => m.Field(f => f.StayDate).Query(hotelAvailabilityRequest.StayDate.ToString("yyyy'-'MM'-'dd"))),
                             fq => fq.MatchPhrase(mp => mp.Field(f => f.Region).Query(hotelAvailabilityRequest.Region)),
                             fq => fq.MatchPhrase(mp => mp.Field(f => f.Country).Query(hotelAvailabilityRequest.Country)),
@@ -59,7 +60,8 @@ namespace FlightBooking.Search.Core.Repositories
                 NetPrice = d.NetPrice,
                 Region = d.Region,
                 Room = d.Room,
-                StayDate = d.StayDate
+                StayDate = d.StayDate,
+                Available = d.Available
             }).ToList();
         }
     }
