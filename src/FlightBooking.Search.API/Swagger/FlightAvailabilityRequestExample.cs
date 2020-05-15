@@ -12,8 +12,10 @@ namespace FlightBooking.Search.API.Swagger
             {
                 Scheduled = new DateTime(2020, 09, 18),
                 ScheduledTimeDate = new DateTime(2020, 09, 18).AddHours(3).AddMinutes(45),
+                Departure = new DateTime(2020, 09, 24),
                 Seats = 5,
-                ArrivalAirportCode = "RHO"
+                ArrivalAirportCode = "RHO",
+                RoundTrip = false
             };
         }
     }

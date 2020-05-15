@@ -5,6 +5,7 @@ using FlightBooking.Search.Core.Responses;
 using MediatR;
 using System.Collections.Generic;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace FlightBooking.Search.Core.Handlers
 {
@@ -21,7 +22,7 @@ namespace FlightBooking.Search.Core.Handlers
             _mapper = mapper;
         }
 
-        public async System.Threading.Tasks.Task<List<AirlineResponse>> Handle(SearchAirlinesQuery request, CancellationToken cancellationToken)
+        public async Task<List<AirlineResponse>> Handle(SearchAirlinesQuery request, CancellationToken cancellationToken)
         {
             var airlines = await _airlineRepository.SearchAirlines(request);
             return airlines == null

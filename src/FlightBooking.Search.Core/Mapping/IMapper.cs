@@ -14,5 +14,7 @@ namespace FlightBooking.Search.Core.Mapping
         LocationResponse Map(Location location);
         List<AirlineResponse> Map(List<Airline> airlines);
         AirlineResponse Map(Airline airline);
+        List<HotelResponse> Map(List<Hotel> hotels);
+        HotelResponse Map(Hotel hotel);
     }
 }

@@ -28,7 +28,9 @@ namespace FlightBooking.Search.API.Controllers
                 request.Scheduled, 
                 request.ScheduledTimeDate, 
                 request.Seats, 
-                request.ArrivalAirportCode);
+                request.ArrivalAirportCode,
+                request.RoundTrip,
+                request.Departure);
             var result = await _mediatr.Send(query, new CancellationToken());
             return result != null
                 ? (IActionResult)Ok(result)
