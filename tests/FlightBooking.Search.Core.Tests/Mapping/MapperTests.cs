@@ -255,5 +255,52 @@ namespace FlightBooking.Search.Core.Tests.Mapping
             // Assert
             result.Should().BeEquivalentTo(airlineResponse);
         }
+
+        [Fact]
+        public void When_MapHotelsResponse()
+        {
+            // Arrange
+            var subject = Mocker.CreateInstance<Mapper>();
+            var hotels = AutoFixture.Create<Hotel[]>().ToList();
+            var hotelsResponse = new List<HotelResponse>();
+
+            foreach (var hotel in hotels)
+            {
+                hotelsResponse.Add(new HotelResponse
+                {
+                    Id = hotel.Id,
+                    Name = hotel.Name,
+                    Code = hotel.Code,
+                    Country = hotel.Country
+                });
+            }
+
+            // Act
+            var result = subject.Map(hotels);
+
+            // Assert
+            result.Should().BeEquivalentTo(hotelsResponse);
+        }
+
+        [Fact]
+        public void When_MapHotelResponse()
+        {
+            // Arrange
+            var subject = Mocker.CreateInstance<Mapper>();
+            var hotel = AutoFixture.Create<Hotel>();
+            var airlineResponse = new HotelResponse
+            {
+                Id = hotel.Id,
+                Name = hotel.Name,
+                Code = hotel.Code,
+                Country = hotel.Country
+            };
+
+            // Act
+            var result = subject.Map(hotel);
+
+            // Assert
+            result.Should().BeEquivalentTo(airlineResponse);
+        }
     }
 }

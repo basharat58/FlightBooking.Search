@@ -34,6 +34,7 @@ namespace FlightBooking.Search.API
             services.AddTransient<IHotelAvailabilityRepository, HotelAvailabilityRepository>();
             services.AddTransient<ILocationRepository, LocationRepository>();
             services.AddTransient<IAirlineRepository, AirlineRepository>();
+            services.AddTransient<IHotelRepository, HotelRepository>();
             services.AddTransient<IElasticSearchClient, ElasticSearchClient>();
             services.AddScoped<IMapper, Mapper>();
             var assembly = AppDomain.CurrentDomain.Load("FlightBooking.Search.Core");

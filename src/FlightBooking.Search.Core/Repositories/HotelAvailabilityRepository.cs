@@ -26,7 +26,7 @@ namespace FlightBooking.Search.Core.Repositories
         {
             var client = _elasticSearchClient.CreateElasticClient(_elasticsearchConfig.Value.Url);
             var response = await client.SearchAsync<HotelAvailability>(har =>
-                har.Index(_elasticsearchConfig.Value.HotelIndex)                
+                har.Index(_elasticsearchConfig.Value.HotelAvailabilityIndex)                
                 .Size(60)
                 .Query(q => q
                     .Bool(bq => bq                    

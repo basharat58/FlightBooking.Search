@@ -94,5 +94,21 @@ namespace FlightBooking.Search.Core.Mapping
                 Country = airline.Country
             };
         }
+
+        public List<HotelResponse> Map(List<Hotel> hotels)
+        {
+            return hotels.Select(h => Map(h)).ToList();
+        }
+
+        public HotelResponse Map(Hotel hotel)
+        {
+            return new HotelResponse
+            {
+                Id = hotel.Id,
+                Name = hotel.Name,
+                Code = hotel.Code,
+                Country = hotel.Country
+            };
+        }
     }
 }

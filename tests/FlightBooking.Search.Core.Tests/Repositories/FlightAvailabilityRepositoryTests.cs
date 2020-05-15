@@ -86,7 +86,7 @@ namespace FlightBooking.Search.Core.Tests.Repositories
             var result = await subject.SearchFlightAvailability(searchFlightAvailabilityQuery);
 
             // Assert
-            result.Should().BeEquivalentTo(null);
+            result.Count.Should().Be(0);
         }
     }
 }
