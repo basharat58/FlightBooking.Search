@@ -20,6 +20,9 @@ namespace FlightBooking.Search.API.Controllers
             _mediatr = mediatr;
         }
 
+        /// <summary>
+        /// Returns all the Airlines.
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -30,6 +33,21 @@ namespace FlightBooking.Search.API.Controllers
                 : NotFound(new { Message = $"No airlines were found." });
         }
 
+        /// <summary>
+        /// Searches for Airlines.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Airline
+        ///     {
+        ///        "airlineSearch": "KLM"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns>A list of AirlineResponse objects</returns>
+        /// <response code="200">Returns the list of AirlineResponse objects</response>
         [HttpPost]
         [SwaggerRequestExample(typeof(AirlineRequest), typeof(AirlineRequestExample))]
         public async Task<IActionResult> SearchAirlines(AirlineRequest request)

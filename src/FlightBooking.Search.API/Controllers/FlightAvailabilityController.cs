@@ -19,7 +19,27 @@ namespace FlightBooking.Search.API.Controllers
         {
             _mediatr = mediator;
         }
-        
+
+        /// <summary>
+        /// Searches for Flight Availability.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /FlightAvailability
+        ///     {
+        ///			"scheduled": "2020-09-18T00:00:00",
+        ///			"scheduledTimeDate": "2020-09-18T03:45:00",
+        ///			"departure": "2020-09-24T00:00:00",
+        ///			"seats": 5,
+        ///			"arrivalAirportCode": "RHO",
+        ///			"roundTrip": false
+        ///	 }
+        ///
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns>A list of FlightAvailabilityResponse objects</returns>
+        /// <response code="200">Returns the list of FlightAvailabilityResponse objects</response>
         [HttpPost]
         [SwaggerRequestExample(typeof(FlightAvailabilityRequest), typeof(FlightAvailabilityRequestExample))]
         public async Task<IActionResult> SearchFlights(FlightAvailabilityRequest request)
