@@ -19,7 +19,10 @@ namespace FlightBooking.Search.API.Controllers
         {
             _mediatr = mediatr;
         }
-       
+
+        /// <summary>
+        /// Returns all the Locations.
+        /// </summary>
         [HttpGet]        
         public async Task<IActionResult> Get()
         {
@@ -29,7 +32,22 @@ namespace FlightBooking.Search.API.Controllers
                 ? (IActionResult)Ok(result)
                 : NotFound(new { Message = $"No locations were found." });
         }
-        
+
+        /// <summary>
+        /// Searches for Locations.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Location
+        ///     {
+        ///        "locationSearch": "Fuerteventura"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns>A list of LocationResponse objects</returns>
+        /// <response code="200">Returns the list of LocationResponse objects</response>
         [HttpPost]
         [SwaggerRequestExample(typeof(LocationRequest), typeof(LocationRequestExample))]
         public async Task<IActionResult> SearchLocations(LocationRequest request)

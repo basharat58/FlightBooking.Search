@@ -19,7 +19,30 @@ namespace FlightBooking.Search.API.Controllers
         {
             _mediatr = mediator;
         }
-        
+
+        /// <summary>
+        /// Searches for Hotel Availability.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /HotelAvailability
+        ///     {
+        ///			"infants": 1,
+        ///			"children": 2,
+        ///			"adults": 1,
+        ///			"stayDate": "2020-09-18T00:00:00",
+        ///			"hotelName": "Lydia Maris",
+        ///			"netPrice": 600,
+        ///			"region": "Rhodes",
+        ///			"country": "Greece",
+        ///			"available": true
+        ///	 }
+        ///
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns>A list of HotelAvailabilityResponse objects</returns>
+        /// <response code="200">Returns the list of HotelAvailabilityResponse objects</response>
         [HttpPost]
         [SwaggerRequestExample(typeof(HotelAvailabilityRequest), typeof(HotelAvailabilityRequestExample))]
         public async Task<IActionResult> SearchHotels(HotelAvailabilityRequest request)

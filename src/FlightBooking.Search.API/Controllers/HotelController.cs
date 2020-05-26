@@ -20,6 +20,9 @@ namespace FlightBooking.Search.API.Controllers
             _mediatr = mediatr;
         }
 
+        /// <summary>
+        /// Returns all the Hotels.
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -30,6 +33,21 @@ namespace FlightBooking.Search.API.Controllers
                 : NotFound(new { Message = $"No hotels were found." });
         }
 
+        /// <summary>
+        /// Searches for Hotels.
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Hotel
+        ///     {
+        ///        "hotelSearch": "Grand"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns>A list of HotelResponse objects</returns>
+        /// <response code="200">Returns the list of HotelResponse objects</response>
         [HttpPost]
         [SwaggerRequestExample(typeof(HotelRequest), typeof(HotelRequestExample))]
         public async Task<IActionResult> SearchHotels(HotelRequest request)
